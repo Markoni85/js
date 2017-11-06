@@ -7,14 +7,11 @@
 window.addEventListener('load', eventWindowLoaded, false);
 function eventWindowLoaded() {
    canvasApp();
-
 }
-
-
+/**
+* Main app
+*/
 function canvasApp() {
-
-
-
   var pointImage = new Image();
   pointImage.src = "point.png";
 
@@ -111,9 +108,7 @@ function canvasApp() {
    context = theCanvas.getContext("2d");
 
    setInterval(drawScreen, 33);
-
 }
-
 </script>
 
 </head>
